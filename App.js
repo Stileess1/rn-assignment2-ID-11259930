@@ -6,7 +6,8 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text style={styles.text}>My name <Text style={styles.name}>{myName}</Text></Text>
-      <StatusBar style="light" />
+      <StatusBar style="auto
+      " />
     </View>
   );
 }
@@ -19,7 +20,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   text: {
-    fontSize: 19,
+    fontSize: 24,
   },
   name: {
     fontWeight: 'bold'
